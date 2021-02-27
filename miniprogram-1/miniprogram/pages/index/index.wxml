@@ -1,0 +1,53 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='listGroup' >
+    <view class='row box' >
+      <image class='icon'src=''></image>
+      <text>待定</text>
+    </view> 
+  </view>
+  <view class='listGroup'>
+    <view class='row box' >
+     <image class='icon'src='/images/xingbie.png'></image>
+     <label>姓别</label>
+     <picker bindchange="sexChange"value="{{index1}}"range="{{sexItem}}">
+      <view class="sex"> {{sexItem[index1]}}</view>
+     </picker>
+    </view>
+    <view class='row box' >
+      <image class='icon'src='/images/nianling.png'></image>
+      <label>年龄</label>
+      <picker name='age'mode='selector'bindchange='ageChange'value="{{index2}}"range='{{ageItem}}'>
+       <view>{{ageItem[index2]}}</view>
+     </picker>
+    </view>
+    <view class='row box' >
+      <image class='icon'src='/images/leibie.png'></image>
+      <label>类别</label>
+      <picker name='genre'mode='selector'bindchange='genreChange'value="{{index3}}"range='{{genreItem}}'>
+       <view>{{genreItem[index3]}}</view>
+     </picker>
+    </view>
+  </view>
+  <view class='listGroup' >
+    <view class='row box' >
+      <image class='icon'src='/images/iconsg.png'></image>
+      <label>身高</label>
+      <input name='height'type='digit'value='{{height}}'bindinput ="heightInput"></input>
+      <text>厘米</text>
+    </view>
+    <view class='row box' >
+      <image class='icon'src='/images/tizhong.png'></image>
+      <label>体重</label>
+      <input name='weight'type='digit'value='{{weight}}'bindinput ="weightInput"></input>
+      <text>千克</text>
+    </view>
+  </view>
+  <view class='listGroup' >
+    <view bindtap='jump'class='row box'>
+      <image class='icon'src='/images/BMIzice.png'></image>
+      <label>体型标准</label>
+    </view>
+  </view>
+</view>
+

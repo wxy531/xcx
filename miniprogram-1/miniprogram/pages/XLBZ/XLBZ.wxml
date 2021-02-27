@@ -1,0 +1,63 @@
+<view class="container">
+  <view class='listGroup' >
+    <view class='LBPDBZ'>类别评定标准（二类人员）</view> 
+  </view>
+  <view class='listGroup' >
+    <view class='bar'bindtap='jump'>
+      <text>引体向上（男）</text>
+    </view>
+    <view class='bar'bindtap='jump1'>
+      <text>屈臂悬垂（女）</text>
+    </view>
+    <view class='bar'bindtap='jump2'>
+      <text>仰卧起坐</text>
+    </view>
+    <view class='bar'bindtap='jump3'>
+      <text>俯卧撑</text>
+    </view>
+    <view class='bar'bindtap='jump4'>
+      <text>30米蛇形跑</text>
+    </view>
+    <view class='bar'bindtap='jump5'>
+      <text>3000米长跑</text>
+    </view>
+    <view class='bar'bindtap='jump6'>
+      <text>爬绳（男）</text>
+    </view>
+    <view class='bar'bindtap='jump7'>
+      <text>20x5持枪绕杆跑（女）</text>
+    </view>
+    <view class='bar'bindtap='jump8'>
+      <text>400米蛙泳（男）</text>
+    </view>
+    <view class='bar'bindtap='jump9'>
+      <text>200米蛙泳（女）</text>
+    </view>
+    <view class='bar'bindtap='jump10'>
+      <text>400米障碍（男）</text>
+    </view>
+    <view class='bar'bindtap='jump11'>
+      <text>400米（女）</text>
+    </view>
+  </view>
+  <view class='listGroup' >
+    <view class='LBPDBZ'>类别评定标准（文职人员）</view> 
+  </view>
+  <view class='listGroup' >
+    <view class='bar'bindtap='jump5'>
+      <text>3000米长跑</text>
+    </view>
+    <view class='bar'bindtap='jump2'>
+      <text>仰卧起坐</text>
+    </view>
+    <view class='bar'bindtap='jump3'>
+      <text>俯卧撑</text>
+    </view>
+    <view class='bar'bindtap='jump'>
+      <text>引体向上（文职男）</text>
+    </view>
+    <view class='bar'bindtap='jump1'>
+      <text>屈臂悬垂（文职女）</text>
+    </view>
+  </view>
+</view>

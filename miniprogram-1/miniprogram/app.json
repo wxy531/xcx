@@ -1,0 +1,55 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/BMI/BMI",
+    "pages/XLBZ/XLBZ",
+    "pages/XLJK/XLJK",
+    "pages/XLGL/XLGL",
+    "pages/YSJY/YSJY",
+    "pages/20x5M/20x5M",
+    "pages/30MSXP/30MSXP",
+    "pages/200MWY/200MWY",
+    "pages/400M/400M",
+    "pages/400MWY/400MWY",
+    "pages/400MZA/400MZA",
+    "pages/3000M/3000M",
+    "pages/FWC/FWC",
+    "pages/PS/PS",
+    "pages/QBXC/QBXC",
+    "pages/YWQZ/YWQZ",
+    "pages/YTXS/YTXS"
+  ],
+  "tabBar": {
+    "selectedColor": "#31869B",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "体型",
+        "iconPath": "/images/tixing.png",
+        "selectedIconPath": "/images/tixing - 副本.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "科目",
+        "iconPath": "/images/yundong-.png",
+        "selectedIconPath": "/images/yundong - 副本.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "标准",
+        "iconPath": "/images/data.png",
+        "selectedIconPath": "/images/data - 副本.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#663399",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

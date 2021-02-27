@@ -1,0 +1,87 @@
+<!--logs.wxml-->
+<view class="container">
+  <view class='listGroup' >
+    <view class='row1 box' >
+      <text>待定</text>
+    </view> 
+  </view>
+  <view class='listGroup' >
+    <view class='row2 box' >
+      <text>姓别</text>
+      <text>{{sex}}</text>
+    </view> 
+    <view class='row2 box' >
+      <text>年龄</text>
+      <text>{{age}}</text>
+    </view>
+    <view class='row2 box' >
+      <text>类别</text>
+      <text>{{genre}}</text>
+    </view> 
+  </view>
+  <view class='listGroup'>
+    <view class='row3 box' >
+     <image class='icon'src='/images/yintixiangshang.png'></image>  
+     <label>引体向上</label>
+     <input name='ytxs'type='number'value='{{ytxs}}'bindinput ="ytxsInput"></input>
+     <text>次</text>
+    </view>
+    <view class='row3 box' >
+     <image class='icon'src='/images/yangwoqizuo.png'></image>  
+     <label>仰卧起坐</label>
+     <input name='ywqz'type='number'value='{{ywqz}}'bindinput ="ywqzInput"></input>
+     <text>次</text>
+    </view>
+    <view class='row4 box' >
+     <image class='icon'src='/images/T-fuwocheng.png'></image>  
+     <label>俯卧撑</label>
+     <input name='fwc'type='number'value='{{fwc}}'bindinput ="fwcInput"></input>
+     <text>次</text>
+    </view>
+    <view class='row8 box' >
+     <image class='icon'src='/images/shexingpao.png'></image>  
+     <label>30米蛇形跑</label>
+     <input name='sxp'type='number'value='{{sxp}}'bindinput ="sxpInput"></input>
+     <text>秒</text>
+    </view>
+    <view class='row5 box' >
+     <image class='icon'src='/images/duanlianchangpao.png'></image>  
+     <label>3000米长跑</label>
+     <picker mode="time" value="{{time1}}" start="06:01" end="21:01" bindchange="bindTime1Change">
+      <view class="3000m">{{time1}}</view>
+     </picker>
+     <text>分</text>
+    </view>
+  </view>
+  <view class='listGroup'>
+    <view class='row6 box' > 
+     <image class='icon'src='/images/shengti.png'></image>   
+     <label>爬绳</label>
+     <input name='ps'type='number'value='{{ps}}'bindinput ="psInput"></input>
+     <text>次</text>
+    </view>
+    <view class='row7 box' >
+     <image class='icon'src='/images/jianshen-youyong-wayong-dieyong-qianyong-swimm.png'></image>  
+     <label>400米蛙泳</label>
+     <picker mode="time" value="{{time2}}" start="00:01" end="20:01" bindchange="bindTime2Change">
+      <view class="400mwy">{{time2}}</view>
+     </picker>
+     <text>分</text>
+    </view>
+    <view class='row7 box' >
+     <image class='icon'src='/images/iconzhangai.png'></image>  
+     <label>400米障碍</label>
+     <picker mode="time" value="{{time3}}" start="00:01" end="10:01" bindchange="bindTime3Change">
+      <view class="400mza">{{time3}}</view>
+     </picker>
+     <text>分</text>
+    </view>
+  </view>
+  <view class='listGroup' >
+    <view class='row box'bindtap='jump1' >
+      <image class='icon'src='/images/_biaozhun.png'></image>  
+      <text>训练标准</text>
+    </view>
+  </view>
+</view>
+

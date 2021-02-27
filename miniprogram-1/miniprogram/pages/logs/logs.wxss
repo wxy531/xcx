@@ -1,0 +1,178 @@
+.container {
+  height:100vh;  /*高度为100视窗，写为100%无效*/
+  background-color:white;  /*背景颜色*/
+  display: flex;  /*flex布局模型*/
+  flex-direction: column;  /*垂直布局*/
+  padding: 20rpx 20rpx;  /*上下外边距为20rpx，左右为20rpx*/
+  align-content: center; /*居中对齐*/
+} 
+.listGroup {
+  background-color:white;  /*背景颜色*/
+  margin: 20rpx 0;  /*上下外边距为20rpx，左右为0*/
+} 
+.row{
+  display: flex;
+  flex-direction:row;
+}
+.row >text{
+  text-align:center;
+  justify-content: justify;
+  font-size: 40rpx;
+  margin: 15rpx 0rpx 0rpx 0rpx;
+}
+.box{
+  border-bottom:1rpx solid silver;
+  margin:20rpx;
+  padding:10rpx;
+  width: 50vh;
+}
+.row1 >text{
+  text-align:center;
+  justify-content: justify;
+  font-size: 40rpx;
+  margin: 15rpx 0rpx 0rpx 0rpx;
+}
+.row2{
+  display: flex;
+  flex-direction:row;
+}
+.row2 >text{
+  text-align:center;
+  justify-content: justify;
+  font-size: 40rpx;
+  padding-right:90rpx;
+  
+}
+.row3{
+  display: flex;
+  flex-direction:row;
+}
+.row3 >label{
+  margin-right:25rpx;
+  justify-content: justify;
+  font-size: 40rpx;
+  margin-top: 15rpx;
+}
+.row3 >text{
+  text-align:center;
+  justify-content: justify;
+  font-size: 40rpx;
+  margin: 15rpx 0rpx 0rpx -170rpx;
+}
+.row3 >input{
+  text-align:center;
+  font-size: 40rpx;
+  margin: 15rpx 0rpx 0rpx -50rpx;
+}
+.row4{
+  display: flex;
+  flex-direction:row;
+}
+.row4 >label{
+  margin-right:25rpx;
+  justify-content: justify;
+  font-size: 40rpx;
+  margin-top: 15rpx;
+}
+.row4 >text{
+  text-align:center;
+  justify-content: justify;
+  font-size: 40rpx;
+  margin: 15rpx 0rpx 0rpx -170rpx;
+}
+.row4 >input{
+  text-align:center;
+  font-size: 40rpx;
+  margin: 15rpx 0rpx 0rpx -10rpx;
+}
+.row5{
+  display: flex;
+  flex-direction:row;
+}
+.row5 >label{
+  margin-right:25rpx;
+  justify-content: justify;
+  font-size: 40rpx;
+  margin-top: 15rpx;
+}
+.row5 >text{
+  text-align:center;
+  justify-content: justify;
+  font-size: 40rpx;
+  margin: 15rpx 0rpx 0rpx 40rpx;
+}
+.row5 >picker{
+  text-align:center;
+  font-size: 40rpx;
+  margin: 15rpx 0rpx 0rpx 20rpx;
+
+}
+.row6{
+  display: flex;
+  flex-direction:row;
+}
+.row6 >label{
+  margin-right:25rpx;
+  justify-content: justify;
+  font-size: 40rpx;
+  margin-top: 15rpx;
+}
+.row6 >text{
+  text-align:center;
+  justify-content: justify;
+  font-size: 40rpx;
+  margin: 15rpx 0rpx 0rpx -170rpx;
+}
+.row6 >input{
+  text-align:center;
+  font-size: 40rpx;
+  margin: 15rpx 0rpx 0rpx 20rpx;
+}
+.row7{
+  display: flex;
+  flex-direction:row;
+}
+.row7 >label{
+  margin-right:25rpx;
+  justify-content: justify;
+  font-size: 40rpx;
+  margin-top: 15rpx;
+}
+.row7 >text{
+  text-align:center;
+  justify-content: justify;
+  font-size: 40rpx;
+  margin: 15rpx 0rpx 0rpx 40rpx;
+}
+.row7 >picker{
+  text-align:center;
+  font-size: 40rpx;
+  margin: 15rpx 0rpx 0rpx 40rpx;
+
+}
+.row8{
+  display: flex;
+  flex-direction:row;
+}
+.row8 >label{
+  margin-right:25rpx;
+  justify-content: justify;
+  font-size: 40rpx;
+  margin-top: 15rpx;
+}
+.row8 >text{
+  text-align:center;
+  justify-content: justify;
+  font-size: 40rpx;
+  margin: 15rpx 0rpx 0rpx -170rpx;
+}
+.row8 >input{
+  text-align:center;
+  font-size: 40rpx;
+  margin: 15rpx 0rpx 0rpx -90rpx;
+}
+.icon{
+  width:40rpx;
+  height:40rpx;
+  margin: 15rpx;
+}

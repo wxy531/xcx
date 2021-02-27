@@ -1,0 +1,35 @@
+<!--miniprogram/pages/20x5M/20x5M.wxml-->
+<view class="container">
+  <view class='listGroup' >
+    <view class='BT'>20x5持枪绕杆（女）</view> 
+  </view>
+  <view class='listGroup' >
+    <view class='bar'>
+      <view class='box'>年龄</view>
+      <view class='box'>及格</view>
+      <view class='box'>良好</view>
+      <view class='box'>优秀</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>≤24岁</view>
+      <view class='box'>1.35分</view>
+      <view class='box'>1.26分</view>
+      <view class='box'>1.20分</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>25~29岁</view>
+      <view class='box'>1.45分</view>
+      <view class='box'>1.38分</view>
+      <view class='box'>1.32分</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>≥30岁</view>
+      <view class='box'>0分</view>
+      <view class='box'>0分</view>
+      <view class='box'>0分</view>
+    </view>
+  </view>
+</view>
+
+
+

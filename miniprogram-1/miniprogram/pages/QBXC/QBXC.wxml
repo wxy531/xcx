@@ -1,0 +1,99 @@
+<!--miniprogram/pages/QBXC/QBXC.wxml-->
+<view class="container">
+  <view class='listGroup' >
+    <view class='QBXC'>屈臂悬垂（女）</view> 
+  </view>
+  <view class='listGroup' >
+    <view class='bar'>
+      <view class='box'>年龄</view>
+      <view class='box'>及格</view>
+      <view class='box'>良好</view>
+      <view class='box'>优秀</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>≤24岁</view>
+      <view class='box'>36秒</view>
+      <view class='box'>49秒</view>
+      <view class='box'>1分02秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>25~27岁</view>
+      <view class='box'>32秒</view>
+      <view class='box'>42秒</view>
+      <view class='box'>55秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>28~30岁</view>
+      <view class='box'>0秒</view>
+      <view class='box'>0秒</view>
+      <view class='box'>0秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>31~33岁</view>
+      <view class='box'>0秒</view>
+      <view class='box'>0秒</view>
+      <view class='box'>0秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>34~36岁</view>
+      <view class='box'>0秒</view>
+      <view class='box'>0秒</view>
+      <view class='box'>0秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>37~39岁</view>
+      <view class='box'>0秒</view>
+      <view class='box'>0秒</view>
+      <view class='box'>0秒</view>
+    </view>
+  </view>
+  <view class='listGroup' >
+    <view class='QBXC'>屈臂悬垂（文职女）</view> 
+  </view>
+  <view class='listGroup' >
+    <view class='bar'>
+      <view class='box'>年龄</view>
+      <view class='box'>及格</view>
+      <view class='box'>良好</view>
+      <view class='box'>优秀</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>≤24岁</view>
+      <view class='box'>29秒</view>
+      <view class='box'>47秒</view>
+      <view class='box'>55秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>25~27岁</view>
+      <view class='box'>27秒</view>
+      <view class='box'>45秒</view>
+      <view class='box'>53秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>28~30岁</view>
+      <view class='box'>24秒</view>
+      <view class='box'>42秒</view>
+      <view class='box'>50秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>31~33岁</view>
+      <view class='box'>21秒</view>
+      <view class='box'>39秒</view>
+      <view class='box'>47秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>34~36岁</view>
+      <view class='box'>18秒</view>
+      <view class='box'>36秒</view>
+      <view class='box'>44秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>37~39岁</view>
+      <view class='box'>15秒</view>
+      <view class='box'>33秒</view>
+      <view class='box'>41秒</view>
+    </view>
+  </view>
+</view>
+
+

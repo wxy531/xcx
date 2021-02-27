@@ -1,0 +1,34 @@
+<!--miniprogram/pages/400MZA/400MZA.wxml-->
+<view class="container">
+  <view class='listGroup' >
+    <view class='BT'>400障碍（男）</view> 
+  </view>
+  <view class='listGroup' >
+    <view class='bar'>
+      <view class='box'>年龄</view>
+      <view class='box'>及格</view>
+      <view class='box'>良好</view>
+      <view class='box'>优秀</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>≤24岁</view>
+      <view class='box'>2.35分</view>
+      <view class='box'>2.20分</view>
+      <view class='box'>2.05分</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>25~29岁</view>
+      <view class='box'>2.45分</view>
+      <view class='box'>2.25分</view>
+      <view class='box'>2.10分</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>≥30岁</view>
+      <view class='box'>0分</view>
+      <view class='box'>0分</view>
+      <view class='box'>0分</view>
+    </view>
+  </view>
+</view>
+
+

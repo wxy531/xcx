@@ -1,0 +1,33 @@
+<!--miniprogram/pages/400MWY/400MWY.wxml-->
+<view class="container">
+  <view class='listGroup' >
+    <view class='BT'>400蛙泳（男）</view> 
+  </view>
+  <view class='listGroup' >
+    <view class='bar'>
+      <view class='box'>年龄</view>
+      <view class='box'>及格</view>
+      <view class='box'>良好</view>
+      <view class='box'>优秀</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>≤24岁</view>
+      <view class='box'>13分</view>
+      <view class='box'>11.55分</view>
+      <view class='box'>10.05分</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>25~29岁</view>
+      <view class='box'>13.10分</view>
+      <view class='box'>12.05分</view>
+      <view class='box'>10.15分</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>≥30岁</view>
+      <view class='box'>0分</view>
+      <view class='box'>0分</view>
+      <view class='box'>0分</view>
+    </view>
+  </view>
+</view>
+

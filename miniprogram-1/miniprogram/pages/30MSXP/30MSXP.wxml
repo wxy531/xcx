@@ -1,0 +1,185 @@
+<!--miniprogram/pages/30MSXP/30MSXP.wxml-->
+<!--miniprogram/pages/FWC/FWC.wxml-->
+<view class="container">
+  <view class='listGroup' >
+    <view class='BT'>30x2蛇形跑（男）</view> 
+  </view>
+  <view class='listGroup' >
+    <view class='bar'>
+      <view class='box'>年龄</view>
+      <view class='box'>及格</view>
+      <view class='box'>良好</view>
+      <view class='box'>优秀</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>≤24岁</view>
+      <view class='box'>20.4秒</view>
+      <view class='box'>20.2秒</view>
+      <view class='box'>20秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>25~27岁</view>
+      <view class='box'>20.8秒</view>
+      <view class='box'>20.6秒</view>
+      <view class='box'>20.4秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>28~30岁</view>
+      <view class='box'>21.1秒</view>
+      <view class='box'>20.9秒</view>
+      <view class='box'>20.7秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>31~33岁</view>
+      <view class='box'>21.3秒</view>
+      <view class='box'>21.1秒</view>
+      <view class='box'>20.9秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>34~36岁</view>
+      <view class='box'>21.7秒</view>
+      <view class='box'>21.5秒</view>
+      <view class='box'>22.3秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>37~39岁</view>
+      <view class='box'>21.8秒</view>
+      <view class='box'>21.7秒</view>
+      <view class='box'>21.6秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>40~42岁</view>
+      <view class='box'>22.3秒</view>
+      <view class='box'>22.2秒</view>
+      <view class='box'>22.1秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>43~45岁</view>
+      <view class='box'>22.4秒</view>
+      <view class='box'>22.5秒</view>
+      <view class='box'>22.6秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>46~48岁</view>
+      <view class='box'>22.6秒</view>
+      <view class='box'>22.5秒</view>
+      <view class='box'>22.4秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>49~51岁</view>
+      <view class='box'>22.8秒</view>
+      <view class='box'>22.7秒</view>
+      <view class='box'>22.6秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>52~54岁</view>
+      <view class='box'>23.4秒</view>
+      <view class='box'>23.3秒</view>
+      <view class='box'>23.2秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>55~57岁</view>
+      <view class='box'>23.8秒</view>
+      <view class='box'>23.7秒</view>
+      <view class='box'>23.6秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>58~59岁</view>
+      <view class='box'>24.5秒</view>
+      <view class='box'>24.4秒</view>
+      <view class='box'>24.3秒</view>
+    </view>
+  </view>
+  <view class='listGroup' >
+    <view class='BT'>30x2蛇形跑（女）</view> 
+  </view>
+  <view class='listGroup' >
+    <view class='bar'>
+      <view class='box'>年龄</view>
+      <view class='box'>及格</view>
+      <view class='box'>良好</view>
+      <view class='box'>优秀</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>≤24岁</view>
+      <view class='box'>22.2秒</view>
+      <view class='box'>22.0秒</view>
+      <view class='box'>21.8秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>25~27岁</view>
+      <view class='box'>22.5秒</view>
+      <view class='box'>22.3秒</view>
+      <view class='box'>22.1秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>28~30岁</view>
+      <view class='box'>22.8秒</view>
+      <view class='box'>22.6秒</view>
+      <view class='box'>22.4秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>31~33岁</view>
+      <view class='box'>23.1秒</view>
+      <view class='box'>22.9秒</view>
+      <view class='box'>22.7秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>34~36岁</view>
+      <view class='box'>23.4秒</view>
+      <view class='box'>23.3秒</view>
+      <view class='box'>23.2秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>37~39岁</view>
+      <view class='box'>23.7秒</view>
+      <view class='box'>23.6秒</view>
+      <view class='box'>23.5秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>40~42岁</view>
+      <view class='box'>24秒</view>
+      <view class='box'>23.9秒</view>
+      <view class='box'>23.8秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>43~45岁</view>
+      <view class='box'>24.3秒</view>
+      <view class='box'>24.2秒</view>
+      <view class='box'>24.1秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>46~48岁</view>
+      <view class='box'>24.6秒</view>
+      <view class='box'>24.5秒</view>
+      <view class='box'>24.4秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>49~51岁</view>
+      <view class='box'>24.9秒</view>
+      <view class='box'>24.8秒</view>
+      <view class='box'>24.7秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>52~54岁</view>
+      <view class='box'>25.2秒</view>
+      <view class='box'>25.1秒</view>
+      <view class='box'>25秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>55~57岁</view>
+      <view class='box'>25.5秒</view>
+      <view class='box'>25.4秒</view>
+      <view class='box'>25.3秒</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>58~59岁</view>
+      <view class='box'>25.8秒</view>
+      <view class='box'>25.7秒</view>
+      <view class='box'>25.6秒</view>
+    </view>
+  </view>
+</view>
+
+
+

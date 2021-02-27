@@ -1,0 +1,31 @@
+/**BMI.wxss**/
+/*背景容器样式*/
+.container{
+  width: 100%;
+  display:flex;
+  flex-direction:column;
+  background-color:white;
+}
+.listGroup{
+  background-color:white;
+  margin:20rpx 0;
+}
+.TXBZ{
+  flex-direction: row;
+  margin:20rpx 0;
+  width: 50vh;
+  text-align:center;
+  border-bottom:1rpx solid silver;
+  font-size: 40rpx;
+}
+.bar{
+  display:flex;
+  border-bottom:1rpx solid silver;
+  flex-direction: row;
+  margin:20rpx 0;
+  width: 50vh;
+}
+.box{
+  width:33.3%;
+  text-align:center;
+}

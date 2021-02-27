@@ -1,0 +1,43 @@
+<!--BMI.wxml-->
+<view class="container">
+  <view class='listGroup' >
+    <view class='TXBZ'>体型标准对照表</view> 
+  </view>
+  <view class='listGroup' >
+    <view class='bar'>
+      <view class='box'>年龄</view>
+      <view class='box'>男</view>
+      <view class='box'>女</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>24岁以下</view>
+      <view class='box'>18.5~25.9</view>
+      <view class='box'>18.5~23.9</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>25~29岁</view>
+      <view class='box'>18.5~26.9</view>
+      <view class='box'>18.5~24.9</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>30~39岁</view>
+      <view class='box'>18.5~27.9</view>
+      <view class='box'>18.5~25.9</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>40~49岁</view>
+      <view class='box'>18.5~28.9</view>
+      <view class='box'>18.5~26.9</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>50~59岁</view>
+      <view class='box'>18.5~29.4</view>
+      <view class='box'>18.5~27.4</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>60岁以上</view>
+      <view class='box'>18.5~29.9</view>
+      <view class='box'>18.5~27.9</view>
+    </view>
+  </view>
+</view>

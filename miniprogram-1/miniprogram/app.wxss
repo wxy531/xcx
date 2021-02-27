@@ -1,0 +1,31 @@
+/**app.wxss**/
+/**app.wxss**/
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+/*列表组样式*/
+.listGroup {
+  background-color:white;  /*背景颜色*/
+  margin: 20rpx 0;  /*上下外边距为20rpx，左右为0*/ 
+}
+/*列表项单行样式*/
+.row {
+  display: flex;  /*flex布局模型*/
+  width:62vh;  /*宽度为62视窗，写为100%无效*/
+  flex-direction:row;  /*水平布局*/
+  align-items:center;  /*垂直方向居中*/
+  border-bottom:1rpx solid silver;  /*1rpx宽的银色实线边框*/
+    /*1rpx宽的白色实线边框*/
+  padding: 10rpx;  /*内边距10rpx*/
+  height:80rpx;
+}
+.icon{
+  width:40rpx;
+  height:40rpx;
+  margin:0 15rpx;
+}

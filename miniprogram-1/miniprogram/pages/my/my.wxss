@@ -1,0 +1,33 @@
+.container {
+  height:100vh;  /*高度为100视窗，写为100%无效*/
+  background-color:white;  /*背景颜色*/
+  display: flex;  /*flex布局模型*/
+  flex-direction: column;  /*垂直布局*/
+  padding: 20rpx 20rpx;  /*上下外边距为20rpx，左右为20rpx*/
+  align-content: center; /*居中对齐*/
+} 
+.listGroup {
+  background-color:white;  /*背景颜色*/
+  margin: 20rpx 0;  /*上下外边距为20rpx，左右为0*/
+} 
+.row{
+  display: flex;
+  flex-direction:row;
+}
+.box{
+  border-bottom:1rpx solid silver;
+  margin:20rpx;
+  padding:10rpx;
+  width: 50vh;
+}
+.row >label{
+  margin-right:25rpx;
+  justify-content: justify;
+  font-size: 40rpx;
+  margin-top: 15rpx;
+}
+.icon{
+  width:40rpx;
+  height:40rpx;
+  margin: 15rpx;
+}

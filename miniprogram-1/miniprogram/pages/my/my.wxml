@@ -1,0 +1,33 @@
+<view class='container'>
+  <view class='listGroup' >
+    <view class='row box' >
+      <label>待定</label>
+    </view> 
+  </view>
+  <view class='listGroup' >
+    <view bindtap='jump1'class='row box'>
+      <image class='icon'src='/images/_biaozhun.png'></image>
+      <label>训练标准</label>
+    </view>
+    <view bindtap='jump2'class='row box'>
+      <image class='icon'src='/images/gonglve.png'></image>
+      <label>训练攻略</label>
+    </view>
+  </view>
+  <view class='listGroup' >
+    <view bindtap='jump3'class='row box'>
+      <image class='icon'src='/images/BMIzice.png'></image>
+      <label>体型标准</label>
+    </view>
+    <view bindtap='jump4'class='row box'>
+      <image class='icon'src='/images/jiankang.png'></image>
+      <label>训练健康</label>
+    </view>
+  </view>
+  <view class='listGroup' >
+    <view bindtap='jump5'class='row box'>
+      <image class='icon'src='/images/yinshi.png'></image>
+      <label>饮食建议</label>
+    </view>
+  </view>
+</view>

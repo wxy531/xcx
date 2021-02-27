@@ -1,0 +1,34 @@
+<!--miniprogram/pages/200MWY/200MWY.wxml-->
+<view class="container">
+  <view class='listGroup' >
+    <view class='BT'>200米蛙泳（女）</view> 
+  </view>
+  <view class='listGroup' >
+    <view class='bar'>
+      <view class='box'>年龄</view>
+      <view class='box'>及格</view>
+      <view class='box'>良好</view>
+      <view class='box'>优秀</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>≤24岁</view>
+      <view class='box'>6.10分</view>
+      <view class='box'>6.40分</view>
+      <view class='box'>7.10分</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>25~29岁</view>
+      <view class='box'>6.20分</view>
+      <view class='box'>6.50分</view>
+      <view class='box'>7.20分</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>≥30岁</view>
+      <view class='box'>0分</view>
+      <view class='box'>0分</view>
+      <view class='box'>0分</view>
+    </view>
+  </view>
+</view>
+
+
