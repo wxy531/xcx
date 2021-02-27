@@ -8,11 +8,17 @@ Page({
     time1: '13:35',
     time2: '13:30',
     time3: '02:35',
+    time4: '13:35',
+    time5: '13:30',
+    time6: '02:35',
     ytxs:'0',
     ywqz:'0',
     fwc:'0',
     sxp:'0',
     ps:'0'
+  },
+  list: {
+    ytxs:[]
   },
   jump1:function(){
     wx.navigateTo({
@@ -44,6 +50,24 @@ Page({
     console.log('picker发送选择改变，携带值为', e.detail.value)
     this.setData({
       time3: e.detail.value
+    })
+  },
+  bindTime4Change: function (e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      time4: e.detail.value
+    })
+  },
+  bindTime5Change: function (e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      time5: e.detail.value
+    })
+  },
+  bindTime6Change: function (e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      time6: e.detail.value
     })
   },
   ytxsInput:function(e)

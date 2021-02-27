@@ -79,13 +79,13 @@
       <view class='box'>18.20分</view>
     </view>
     <view class='bar'>
-      <view class='box'>55~57岁</view>
+      <view class='box'>55~58岁</view>
       <view class='box'>20.23分</view>
       <view class='box'>19.35分</view>
       <view class='box'>19.10分</view>
     </view>
     <view class='bar'>
-      <view class='box'>58~59岁</view>
+      <view class='box'>58~60岁</view>
       <view class='box'>21.05分</view>
       <view class='box'>20.35分</view>
       <view class='box'>20.10分</view>
@@ -168,194 +168,16 @@
       <view class='box'>20.40分</view>
     </view>
     <view class='bar'>
-      <view class='box'>55~57岁</view>
+      <view class='box'>55~58岁</view>
       <view class='box'>22.48分</view>
       <view class='box'>21.55分</view>
       <view class='box'>21.00分</view>
     </view>
     <view class='bar'>
-      <view class='box'>58~59岁</view>
+      <view class='box'>58~60岁</view>
       <view class='box'>23.47分</view>
       <view class='box'>22.35分</view>
       <view class='box'>21.40分</view>
-    </view>
-  </view>
-  <view class='listGroup' >
-    <view class='BT'>3000米长跑（文职男）</view> 
-  </view>
-  <view class='listGroup' >
-    <view class='bar'>
-      <view class='box'>年龄</view>
-      <view class='box'>及格</view>
-      <view class='box'>良好</view>
-      <view class='box'>优秀</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>≤24岁</view>
-      <view class='box'>13.52分</view>
-      <view class='box'>13.07分</view>
-      <view class='box'>12.37分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>25~27岁</view>
-      <view class='box'>14.28分</view>
-      <view class='box'>13.43分</view>
-      <view class='box'>13.13分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>28~30岁</view>
-      <view class='box'>15.00分</view>
-      <view class='box'>14.19分</view>
-      <view class='box'>13.49分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>31~33岁</view>
-      <view class='box'>15.40分</view>
-      <view class='box'>14.55分</view>
-      <view class='box'>14.25分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>34~36岁</view>
-      <view class='box'>16.00分</view>
-      <view class='box'>15.31分</view>
-      <view class='box'>15.01分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>37~39岁</view>
-      <view class='box'>16.58分</view>
-      <view class='box'>16.13分</view>
-      <view class='box'>15.43分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>40~42岁</view>
-      <view class='box'>17.40分</view>
-      <view class='box'>16.55分</view>
-      <view class='box'>16.25分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>43~45岁</view>
-      <view class='box'>18.22分</view>
-      <view class='box'>17.37分</view>
-      <view class='box'>17.07分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>46~48岁</view>
-      <view class='box'>19.04分</view>
-      <view class='box'>18.19分</view>
-      <view class='box'>17.49分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>49~51岁</view>
-      <view class='box'>19.46分</view>
-      <view class='box'>19.01分</view>
-      <view class='box'>18.31分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>52~54岁</view>
-      <view class='box'>20.28分</view>
-      <view class='box'>19.43分</view>
-      <view class='box'>19.13分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>55~57岁</view>
-      <view class='box'>21.10分</view>
-      <view class='box'>20.25分</view>
-      <view class='box'>19.55分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>58~59岁</view>
-      <view class='box'>21.52分</view>
-      <view class='box'>21.07分</view>
-      <view class='box'>20.37分</view>
-    </view>
-  </view>
-  <view class='listGroup' >
-    <view class='BT'>3000米长跑（文职女）</view> 
-  </view>
-  <view class='listGroup' >
-    <view class='bar'>
-      <view class='box'>年龄</view>
-      <view class='box'>及格</view>
-      <view class='box'>良好</view>
-      <view class='box'>优秀</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>≤24岁</view>
-      <view class='box'>16.23分</view>
-      <view class='box'>15.38分</view>
-      <view class='box'>15.08分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>25~27岁</view>
-      <view class='box'>17.02分</view>
-      <view class='box'>16.17分</view>
-      <view class='box'>15.47分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>28~30岁</view>
-      <view class='box'>17.41分</view>
-      <view class='box'>16.56分</view>
-      <view class='box'>16.26分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>31~33岁</view>
-      <view class='box'>18.20分</view>
-      <view class='box'>17.35分</view>
-      <view class='box'>17.05分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>34~36岁</view>
-      <view class='box'>18.59分</view>
-      <view class='box'>18.14分</view>
-      <view class='box'>17.44分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>37~39岁</view>
-      <view class='box'>19.38分</view>
-      <view class='box'>18.53分</view>
-      <view class='box'>18.23分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>40~42岁</view>
-      <view class='box'>20.17分</view>
-      <view class='box'>19.32分</view>
-      <view class='box'>19.02分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>43~45岁</view>
-      <view class='box'>20.56分</view>
-      <view class='box'>20.11分</view>
-      <view class='box'>19.41分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>46~48岁</view>
-      <view class='box'>21.35分</view>
-      <view class='box'>20.50分</view>
-      <view class='box'>20.20分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>49~51岁</view>
-      <view class='box'>22.14分</view>
-      <view class='box'>21.29分</view>
-      <view class='box'>20.59分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>52~54岁</view>
-      <view class='box'>22.53分</view>
-      <view class='box'>22.08分</view>
-      <view class='box'>21.38分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>55~57岁</view>
-      <view class='box'>23.32分</view>
-      <view class='box'>22.47分</view>
-      <view class='box'>22.17分</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>58~59岁</view>
-      <view class='box'>24.11分</view>
-      <view class='box'>23.26分</view>
-      <view class='box'>22.56分</view>
     </view>
   </view>
 </view>

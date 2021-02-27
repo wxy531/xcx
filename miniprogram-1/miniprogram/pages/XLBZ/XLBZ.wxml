@@ -53,11 +53,5 @@
     <view class='bar'bindtap='jump3'>
       <text>俯卧撑</text>
     </view>
-    <view class='bar'bindtap='jump'>
-      <text>引体向上（文职男）</text>
-    </view>
-    <view class='bar'bindtap='jump1'>
-      <text>屈臂悬垂（文职女）</text>
-    </view>
   </view>
 </view>
