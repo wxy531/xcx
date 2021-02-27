@@ -1,7 +1,7 @@
 <!--miniprogram/pages/YWQZ/YWQZ.wxml-->
 <view class="container">
   <view class='listGroup' >
-    <view class='YWQZM'>仰卧起坐（男）</view> 
+    <view class='BT'>仰卧起坐（男）</view> 
   </view>
   <view class='listGroup' >
     <view class='bar'>
@@ -77,20 +77,20 @@
       <view class='box'>40次</view>
     </view>
     <view class='bar'>
-      <view class='box'>55~58岁</view>
+      <view class='box'>55~57岁</view>
       <view class='box'>24次</view>
       <view class='box'>30次</view>
       <view class='box'>37次</view>
     </view>
     <view class='bar'>
-      <view class='box'>58~60岁</view>
+      <view class='box'>58~59岁</view>
       <view class='box'>20次</view>
       <view class='box'>25次</view>
       <view class='box'>30次</view>
     </view>
   </view>
   <view class='listGroup' >
-    <view class='YWQZV'>仰卧起坐（女）</view> 
+    <view class='BT'>仰卧起坐（女）</view> 
   </view>
   <view class='listGroup' >
     <view class='bar'>
@@ -166,20 +166,20 @@
       <view class='box'>34次</view>
     </view>
     <view class='bar'>
-      <view class='box'>55~58岁</view>
+      <view class='box'>55~57岁</view>
       <view class='box'>19次</view>
       <view class='box'>25次</view>
       <view class='box'>30次</view>
     </view>
     <view class='bar'>
-      <view class='box'>58~60岁</view>
+      <view class='box'>58~59岁</view>
       <view class='box'>17次</view>
       <view class='box'>23次</view>
       <view class='box'>38次</view>
     </view>
   </view>
   <view class='listGroup' >
-    <view class='YWQZWZM'>仰卧起坐（文职男）</view> 
+    <view class='BT'>仰卧起坐（文职男）</view> 
   </view>
   <view class='listGroup' >
     <view class='bar'>
@@ -190,170 +190,170 @@
     </view>
     <view class='bar'>
       <view class='box'>≤24岁</view>
-      <view class='box'>50次</view>
-      <view class='box'>70次</view>
-      <view class='box'>80次</view>
+      <view class='box'>43次</view>
+      <view class='box'>59次</view>
+      <view class='box'>67次</view>
     </view>
     <view class='bar'>
       <view class='box'>25~27岁</view>
-      <view class='box'>47次</view>
-      <view class='box'>60次</view>
-      <view class='box'>70次</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>28~30岁</view>
-      <view class='box'>45次</view>
-      <view class='box'>55次</view>
-      <view class='box'>62次</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>31~33岁</view>
-      <view class='box'>43次</view>
-      <view class='box'>50次</view>
-      <view class='box'>58次</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>34~36岁</view>
-      <view class='box'>39次</view>
-      <view class='box'>47次</view>
-      <view class='box'>55次</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>37~39岁</view>
-      <view class='box'>35次</view>
-      <view class='box'>44次</view>
-      <view class='box'>52次</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>40~42岁</view>
-      <view class='box'>33次</view>
       <view class='box'>41次</view>
-      <view class='box'>49次</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>43~45岁</view>
-      <view class='box'>30次</view>
-      <view class='box'>38次</view>
-      <view class='box'>46次</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>46~48岁</view>
-      <view class='box'>28次</view>
-      <view class='box'>35次</view>
-      <view class='box'>43次</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>49~51岁</view>
-      <view class='box'>26次</view>
-      <view class='box'>33次</view>
-      <view class='box'>41次</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>52~54岁</view>
-      <view class='box'>24次</view>
-      <view class='box'>30次</view>
-      <view class='box'>38次</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>55~58岁</view>
-      <view class='box'>22次</view>
-      <view class='box'>26次</view>
-      <view class='box'>32次</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>58~60岁</view>
-      <view class='box'>17次</view>
-      <view class='box'>22次</view>
-      <view class='box'>28次</view>
-    </view>
-  </view>
-  <view class='listGroup' >
-    <view class='YWQZWZV'>仰卧起坐（文职女）</view> 
-  </view>
-  <view class='listGroup' >
-    <view class='bar'>
-      <view class='box'>年龄</view>
-      <view class='box'>及格</view>
-      <view class='box'>良好</view>
-      <view class='box'>优秀</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>≤24岁</view>
-      <view class='box'>42次</view>
-      <view class='box'>55次</view>
+      <view class='box'>57次</view>
       <view class='box'>65次</view>
     </view>
     <view class='bar'>
-      <view class='box'>25~27岁</view>
+      <view class='box'>28~30岁</view>
       <view class='box'>39次</view>
-      <view class='box'>52次</view>
-      <view class='box'>62次</view>
+      <view class='box'>55次</view>
+      <view class='box'>63次</view>
     </view>
     <view class='bar'>
-      <view class='box'>28~30岁</view>
-      <view class='box'>37次</view>
+      <view class='box'>31~33岁</view>
+      <view class='box'>35次</view>
+      <view class='box'>51次</view>
+      <view class='box'>60次</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>34~36岁</view>
+      <view class='box'>30次</view>
       <view class='box'>49次</view>
       <view class='box'>59次</view>
     </view>
     <view class='bar'>
-      <view class='box'>31~33岁</view>
-      <view class='box'>35次</view>
+      <view class='box'>37~39岁</view>
+      <view class='box'>28次</view>
       <view class='box'>46次</view>
       <view class='box'>56次</view>
     </view>
     <view class='bar'>
-      <view class='box'>34~36岁</view>
-      <view class='box'>33次</view>
+      <view class='box'>40~42岁</view>
+      <view class='box'>25次</view>
+      <view class='box'>44次</view>
+      <view class='box'>54次</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>43~45岁</view>
+      <view class='box'>23次</view>
+      <view class='box'>42次</view>
+      <view class='box'>51次</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>46~48岁</view>
+      <view class='box'>21次</view>
+      <view class='box'>39次</view>
+      <view class='box'>48次</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>49~51岁</view>
+      <view class='box'>19次</view>
+      <view class='box'>37次</view>
+      <view class='box'>46次</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>52~54岁</view>
+      <view class='box'>17次</view>
+      <view class='box'>35次</view>
+      <view class='box'>44次</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>55~57岁</view>
+      <view class='box'>15次</view>
+      <view class='box'>32次</view>
+      <view class='box'>42次</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>58~59岁</view>
+      <view class='box'>13次</view>
+      <view class='box'>30次</view>
       <view class='box'>40次</view>
+    </view>
+  </view>
+  <view class='listGroup' >
+    <view class='BT'>仰卧起坐（文职女）</view> 
+  </view>
+  <view class='listGroup' >
+    <view class='bar'>
+      <view class='box'>年龄</view>
+      <view class='box'>及格</view>
+      <view class='box'>良好</view>
+      <view class='box'>优秀</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>≤24岁</view>
+      <view class='box'>38次</view>
+      <view class='box'>51次</view>
+      <view class='box'>57次</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>25~27岁</view>
+      <view class='box'>36次</view>
+      <view class='box'>50次</view>
+      <view class='box'>56次</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>28~30岁</view>
+      <view class='box'>36次</view>
+      <view class='box'>46次</view>
+      <view class='box'>54次</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>31~33岁</view>
+      <view class='box'>32次</view>
+      <view class='box'>44次</view>
+      <view class='box'>52次</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>34~36岁</view>
+      <view class='box'>29次</view>
+      <view class='box'>42次</view>
       <view class='box'>50次</view>
     </view>
     <view class='bar'>
       <view class='box'>37~39岁</view>
-      <view class='box'>31次</view>
-      <view class='box'>37次</view>
-      <view class='box'>45次</view>
+      <view class='box'>27次</view>
+      <view class='box'>39次</view>
+      <view class='box'>47次</view>
     </view>
     <view class='bar'>
       <view class='box'>40~42岁</view>
-      <view class='box'>29次</view>
-      <view class='box'>35次</view>
-      <view class='box'>43次</view>
+      <view class='box'>24次</view>
+      <view class='box'>36次</view>
+      <view class='box'>46次</view>
     </view>
     <view class='bar'>
       <view class='box'>43~45岁</view>
-      <view class='box'>27次</view>
-      <view class='box'>33次</view>
-      <view class='box'>41次</view>
+      <view class='box'>22次</view>
+      <view class='box'>35次</view>
+      <view class='box'>45次</view>
     </view>
     <view class='bar'>
       <view class='box'>46~48岁</view>
-      <view class='box'>25次</view>
-      <view class='box'>31次</view>
-      <view class='box'>39次</view>
+      <view class='box'>19次</view>
+      <view class='box'>33次</view>
+      <view class='box'>42次</view>
     </view>
     <view class='bar'>
       <view class='box'>49~51岁</view>
-      <view class='box'>23次</view>
+      <view class='box'>17次</view>
       <view class='box'>29次</view>
-      <view class='box'>35次</view>
+      <view class='box'>39次</view>
     </view>
     <view class='bar'>
       <view class='box'>52~54岁</view>
+      <view class='box'>15次</view>
+      <view class='box'>26次</view>
+      <view class='box'>38次</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>55~57岁</view>
+      <view class='box'>13次</view>
+      <view class='box'>23次</view>
+      <view class='box'>35次</view>
+    </view>
+    <view class='bar'>
+      <view class='box'>58~59岁</view>
+      <view class='box'>10次</view>
       <view class='box'>21次</view>
-      <view class='box'>27次</view>
-      <view class='box'>32次</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>55~58岁</view>
-      <view class='box'>19次</view>
-      <view class='box'>24次</view>
-      <view class='box'>29次</view>
-    </view>
-    <view class='bar'>
-      <view class='box'>58~60岁</view>
-      <view class='box'>17次</view>
-      <view class='box'>22次</view>
-      <view class='box'>25次</view>
+      <view class='box'>23次</view>
     </view>
   </view>
 </view>

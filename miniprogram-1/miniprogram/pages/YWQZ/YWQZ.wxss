@@ -10,31 +10,7 @@
   background-color:white;
   margin:20rpx 0;
 }
-.YWQZM{
-  flex-direction: row;
-  margin:20rpx 0;
-  width: 50vh;
-  text-align:center;
-  border-bottom:1rpx solid silver;
-  font-size: 40rpx;
-}
-.YWQZV{
-  flex-direction: row;
-  margin:20rpx 0;
-  width: 50vh;
-  text-align:center;
-  border-bottom:1rpx solid silver;
-  font-size: 40rpx;
-}
-.YWQZWZM{
-  flex-direction: row;
-  margin:20rpx 0;
-  width: 50vh;
-  text-align:center;
-  border-bottom:1rpx solid silver;
-  font-size: 40rpx;
-}
-.YWQZWZV{
+.BT{
   flex-direction: row;
   margin:20rpx 0;
   width: 50vh;

@@ -10,7 +10,7 @@
   background-color:white;
   margin:20rpx 0;
 }
-.FWCM{
+.BT{
   flex-direction: row;
   margin:20rpx 0;
   width: 50vh;
@@ -18,14 +18,7 @@
   border-bottom:1rpx solid silver;
   font-size: 40rpx;
 }
-.FWCV{
-  flex-direction: row;
-  margin:20rpx 0;
-  width: 50vh;
-  text-align:center;
-  border-bottom:1rpx solid silver;
-  font-size: 40rpx;
-}
+
 .bar{
   display:flex;
   border-bottom:1rpx solid silver;

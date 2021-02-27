@@ -20,17 +20,11 @@
     </view> 
   </view>
   <view class='listGroup'>
-    <view wx:if="{{sex=='男'}}" class='row3 box' >
+    <view class='row3 box' >
      <image class='icon'src='/images/yintixiangshang.png'></image>  
      <label>引体向上</label>
      <input name='ytxs'type='number'value='{{ytxs}}'bindinput ="ytxsInput"></input>
      <text>次</text>
-    </view>
-    <view wx:if="{{sex=='女'}}" class='row3 box' >
-     <image class='icon'src='/images/yintixiangshang.png'></image>  
-     <label>屈臂悬垂</label>
-     <input name='qbxc'type='number'value='{{qbxc}}'bindinput ="qbxcInput"></input>
-     <text>秒</text>
     </view>
     <view class='row3 box' >
      <image class='icon'src='/images/yangwoqizuo.png'></image>  
@@ -60,13 +54,13 @@
     </view>
   </view>
   <view class='listGroup'>
-    <view wx:if="{{sex=='男'}}" class='row6 box' > 
+    <view class='row6 box' > 
      <image class='icon'src='/images/shengti.png'></image>   
      <label>爬绳</label>
      <input name='ps'type='number'value='{{ps}}'bindinput ="psInput"></input>
      <text>次</text>
     </view>
-    <view wx:if="{{sex=='男'}}" class='row7 box' >
+    <view class='row7 box' >
      <image class='icon'src='/images/jianshen-youyong-wayong-dieyong-qianyong-swimm.png'></image>  
      <label>400米蛙泳</label>
      <picker mode="time" value="{{time2}}" start="00:01" end="20:01" bindchange="bindTime2Change">
@@ -74,35 +68,11 @@
      </picker>
      <text>分</text>
     </view>
-    <view wx:if="{{sex=='男'}}" class='row7 box' >
+    <view class='row7 box' >
      <image class='icon'src='/images/iconzhangai.png'></image>  
      <label>400米障碍</label>
      <picker mode="time" value="{{time3}}" start="00:01" end="10:01" bindchange="bindTime3Change">
       <view class="400mza">{{time3}}</view>
-     </picker>
-     <text>分</text>
-    </view>
-    <view wx:if="{{sex=='女'}}" class='row7 box' > 
-      <image class='icon'src='/images/iconzhangai.png'></image>  
-     <label>20x5持枪绕杆跑</label>
-     <picker mode="time" value="{{time4}}" start="00:01" end="10:01" bindchange="bindTime4Change">
-      <view class="400mza">{{time4}}</view>
-     </picker>
-     <text>分</text>
-    </view>
-    <view wx:if="{{sex=='女'}}" class='row7 box' >
-     <image class='icon'src='/images/jianshen-youyong-wayong-dieyong-qianyong-swimm.png'></image>  
-     <label>200米蛙泳</label>
-     <picker mode="time" value="{{time5}}" start="00:01" end="20:01" bindchange="bindTime5Change">
-      <view class="400mwy">{{time5}}</view>
-     </picker>
-     <text>分</text>
-    </view>
-    <view wx:if="{{sex=='女'}}" class='row7 box' >
-     <image class='icon'src='/images/iconzhangai.png'></image>  
-     <label>400米</label>
-     <picker mode="time" value="{{time6}}" start="00:01" end="10:01" bindchange="bindTime6Change">
-      <view class="400mza">{{time6}}</view>
      </picker>
      <text>分</text>
     </view>
