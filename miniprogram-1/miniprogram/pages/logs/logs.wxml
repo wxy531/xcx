@@ -2,7 +2,8 @@
 <view class="container">
   <view class='listGroup' >
     <view class='row1 box' >
-      <text>待定</text>
+      <text>{{jg}}{{lh}}{{yx}}</text>
+      <button bindtap="calAll">计算</button>
     </view> 
   </view>
   <view class='listGroup' >
@@ -20,25 +21,31 @@
     </view> 
   </view>
   <view class='listGroup'>
-    <view class='row3 box' >
+    <view wx:if="{{sex=='男'&&ageIndex<17}}" class='row3 box' >
      <image class='icon'src='/images/yintixiangshang.png'></image>  
      <label>引体向上</label>
      <input name='ytxs'type='number'value='{{ytxs}}'bindinput ="ytxsInput"></input>
      <text>次</text>
     </view>
-    <view class='row3 box' >
+    <view wx:if="{{sex=='女'&&ageIndex<17}}" class='row3 box' >
+     <image class='icon'src='/images/yintixiangshang.png'></image>  
+     <label>屈臂悬垂</label>
+     <input name='qbxc'type='number'value='{{qbxc}}'bindinput ="qbxcInput"></input>
+     <text>秒</text>
+    </view>
+    <view  class='row3 box' >
      <image class='icon'src='/images/yangwoqizuo.png'></image>  
      <label>仰卧起坐</label>
      <input name='ywqz'type='number'value='{{ywqz}}'bindinput ="ywqzInput"></input>
      <text>次</text>
     </view>
-    <view class='row4 box' >
+    <view wx:if="{{ageIndex>16}}" class='row4 box' >
      <image class='icon'src='/images/T-fuwocheng.png'></image>  
      <label>俯卧撑</label>
      <input name='fwc'type='number'value='{{fwc}}'bindinput ="fwcInput"></input>
      <text>次</text>
     </view>
-    <view class='row8 box' >
+    <view wx:if="{{genre=='二类人员'}}" class='row8 box' >
      <image class='icon'src='/images/shexingpao.png'></image>  
      <label>30米蛇形跑</label>
      <input name='sxp'type='number'value='{{sxp}}'bindinput ="sxpInput"></input>
@@ -53,14 +60,14 @@
      <text>分</text>
     </view>
   </view>
-  <view class='listGroup'>
-    <view class='row6 box' > 
+  <view wx:if="{{genre=='二类人员'}}" class='listGroup'>
+    <view wx:if="{{sex=='男'}}" class='row6 box' > 
      <image class='icon'src='/images/shengti.png'></image>   
      <label>爬绳</label>
      <input name='ps'type='number'value='{{ps}}'bindinput ="psInput"></input>
      <text>次</text>
     </view>
-    <view class='row7 box' >
+    <view wx:if="{{sex=='男'&&genre=='二类人员'}}" class='row7 box' >
      <image class='icon'src='/images/jianshen-youyong-wayong-dieyong-qianyong-swimm.png'></image>  
      <label>400米蛙泳</label>
      <picker mode="time" value="{{time2}}" start="00:01" end="20:01" bindchange="bindTime2Change">
@@ -68,11 +75,35 @@
      </picker>
      <text>分</text>
     </view>
-    <view class='row7 box' >
+    <view wx:if="{{sex=='男'&&genre=='二类人员'}}" class='row7 box' >
      <image class='icon'src='/images/iconzhangai.png'></image>  
      <label>400米障碍</label>
      <picker mode="time" value="{{time3}}" start="00:01" end="10:01" bindchange="bindTime3Change">
       <view class="400mza">{{time3}}</view>
+     </picker>
+     <text>分</text>
+    </view>
+    <view wx:if="{{sex=='女'&&genre=='二类人员'}}" class='row7 box' > 
+      <image class='icon'src='/images/iconzhangai.png'></image>  
+     <label>20x5持枪绕杆跑</label>
+     <picker mode="time" value="{{time4}}" start="00:01" end="10:01" bindchange="bindTime4Change">
+      <view class="400mza">{{time4}}</view>
+     </picker>
+     <text>分</text>
+    </view>
+    <view wx:if="{{sex=='女'&&genre=='二类人员'}}" class='row7 box' >
+     <image class='icon'src='/images/jianshen-youyong-wayong-dieyong-qianyong-swimm.png'></image>  
+     <label>200米蛙泳</label>
+     <picker mode="time" value="{{time5}}" start="00:01" end="20:01" bindchange="bindTime5Change">
+      <view class="400mwy">{{time5}}</view>
+     </picker>
+     <text>分</text>
+    </view>
+    <view wx:if="{{sex=='女'&&genre=='二类人员'}}" class='row7 box' >
+     <image class='icon'src='/images/iconzhangai.png'></image>  
+     <label>400米</label>
+     <picker mode="time" value="{{time6}}" start="00:01" end="10:01" bindchange="bindTime6Change">
+      <view class="400mza">{{time6}}</view>
      </picker>
      <text>分</text>
     </view>

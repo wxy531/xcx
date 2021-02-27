@@ -3,7 +3,7 @@
   <view class='listGroup' >
     <view class='row box' >
       <image class='icon'src=''></image>
-      <text>待定</text>
+      <text>BMI:{{bmi}}  {{pass}}</text>
     </view> 
   </view>
   <view class='listGroup'>
@@ -33,13 +33,13 @@
     <view class='row box' >
       <image class='icon'src='/images/iconsg.png'></image>
       <label>身高</label>
-      <input name='height'type='digit'value='{{height}}'bindinput ="heightInput"></input>
+      <input name='height'type='digit' model:value='{{height}}'bindinput ="heightInput"></input>
       <text>厘米</text>
     </view>
     <view class='row box' >
       <image class='icon'src='/images/tizhong.png'></image>
       <label>体重</label>
-      <input name='weight'type='digit'value='{{weight}}'bindinput ="weightInput"></input>
+      <input name='weight'type='digit' model:value='{{weight}}'bindinput ="weightInput"></input>
       <text>千克</text>
     </view>
   </view>
